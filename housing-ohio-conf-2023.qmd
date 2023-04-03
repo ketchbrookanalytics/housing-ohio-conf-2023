@@ -1,0 +1,18 @@
+---
+subtitle: "Youth Data Dashboard"
+author: |
+  | Michael Thomas, M.S.
+  | Chief Data Scientist
+  | Ketchbrook Analytics
+format:
+  revealjs:
+    theme: sky
+    logo: www/ketchbrook_logo.png
+    incremental: false
+    transition: slide
+    preview-links: true
+---
+
+## Youth Data Dashboard
+
+
