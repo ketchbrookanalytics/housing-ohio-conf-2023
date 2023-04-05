@@ -8,11 +8,104 @@ format:
   revealjs:
     theme: sky
     logo: www/ketchbrook_logo.png
-    incremental: false
+    chalkboard: true
+    incremental: true
     transition: slide
     preview-links: true
 ---
 
 ## Youth Data Dashboard
 
+![](www/app_screenshot.png)
 
+:::{.notes}
+- I want to thank Amanda & Sara for the fantastic introduction
+- My name is Michael Thomas, and I am the Chief Data Scientist at Ketchbrook Analytics; in case you haven't heard of us, Ketchbrook is a data science consulting firm that specializes in the end-to-end lifecycle of any data analytics project -- which is exactly what this particular project entailed
+- We are incredibly proud of the hard work & collaboration between the COHHIO team and the Ketchbrook Analytics team, and we hope that perhaps some of you in the audience have already utilized our web application to learn more about Youth Homelessness and the effect programs in the State are having on the youth homeless population
+:::
+
+## App Tour
+
+<br>
+<br>
+
+[Youth Data Dashboard (cohhio.org/youth-data)](https://ohiobalanceofstatecoc.shinyapps.io/cohhio-youth-data-dashboard/)
+
+::: {.notes}
+- I thought it would actually make sense to take a tour of the app *first*, so that for anyone in here who has *not* yet seen the app, the rest of this presentation will make a whole lot more sense
+:::
+
+## Architecture
+
+![](www/architecture-diagram.png)
+
+## Hurdles
+
+- Different HMIS Database implementations
+  - De-duplication
+  - Column name standardization
+  - Inability to connect directly to data source(s)
+- COHHIO Resource Transitions
+- Data quality
+
+## What Made this Project Successful? {transition="none-out"}
+
+- Willingness to interrogate data
+- Meeting COHHIO where they are
+- Iterative mindset
+
+::: {.notes}
+- It's not often that we have engagements where our client's team is so well-versed in the data that they are working with, but the COHHIO team was a wonderful exception
+  - We met bi-weekly, and I'd say we were both not afraid to ask the other tough questions, but very respectfully, and often these questions led to real deep dives into the data & scrolling through spreadsheets (shoutout to Monica Tillis, who lives and breathes HMIS data)
+- Hiring a Consultant does *not* mean you have to adopt & pay for some new 3rd Party Platform (when it comes to a data analytics project)
+  - We met the COHHIO team where they are, used their existing technology stack
+  - We used freely available software that COHHIO's team is well-versed in
+  - The only incremental cost over their existing tools was the database we created, which costs ~$15/month
+- Prior to this project, there was an Excel "dashboard" that contained a little bit of this information, but it wasn't real-time, not accessible to the public because you would have needed to have downloaded the Excel files, ran some macros, put files in certain places... it was not easy for the average stakeholder to view
+  - Now the only thing an end user needs is an internet connection; anyone can navigate to the app and explore it for themselves
+:::
+
+## What Made this Project Successful? {transition="none"}
+
+![](www/parenting_page_wireframe.png)
+
+::: {.notes}
+- We pay a *lot* of attention to the *design* of the layout of information, with the goal of making a great user experience for anyone who is navigating the app
+- It takes a fair amount of time to write the code that produces a single page in the app, and for the purposes of both cost and the use of everyone's time, one way we always try to reduce the amount of time it takes to develop a new dashboard page is to literally sketch it out ahead of time
+  - We would have a conversation with the COHHIO team on what information we think should be included on a particular page, then we would sketch it out like you see here, and iterate on the *design* before we actually went out and built it
+  - This quick iteration led to a really efficient workflow between **concept** and **creation**, and is how we would go from this...
+:::
+
+## What Made this Project Successful? {transition="none"}
+
+![](www/parenting_page_screenshot.png)
+
+::: {.notes}
+- ...to this
+- And with software, it's a living/breathing thing that can be changed/enhanced
+  - Just pushed out a whole new page of the app last week!
+:::
+
+## What Made this Project Successful? {transition="none-in"}
+
+::: {.nonincremental}
+- Willingness to interrogate data
+- Meeting COHHIO where they are
+- Iterative mindset
+- Accessibility of end product
+:::
+
+::: {.notes}
+- Prior to this project, there was an Excel "dashboard" that contained a little bit of this information, but it wasn't real-time, not accessible to the public because you would have needed to have downloaded the Excel files, ran some macros, put files in certain places... it was not easy for the average stakeholder to view
+  - Now the only thing an end user needs is an internet connection; anyone can navigate to the app and explore it for themselves
+:::
+
+## Q & A
+
+<br>
+
+[info@ketchbrookanalytics.com](mailto:mthomas@ketchbrookanalytics.com)
+
+<br>
+
+[www.ketchbrookanalytics.com](https://www.ketchbrookanalytics.com)
