@@ -1,2 +1,4 @@
 project:
   title: "Housing Ohio Conference 2023"
+  type: website
+  output-dir: docs

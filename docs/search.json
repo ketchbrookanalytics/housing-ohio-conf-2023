@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "housing-ohio-conf-2023.html#youth-data-dashboard",
+    "href": "housing-ohio-conf-2023.html#youth-data-dashboard",
+    "title": "Housing Ohio Conference 2023",
+    "section": "Youth Data Dashboard",
+    "text": "Youth Data Dashboard\n\n\n\nI want to thank Amanda & Sara for the fantastic introduction\nMy name is Michael Thomas, and I am the Chief Data Scientist at Ketchbrook Analytics; in case you haven’t heard of us, Ketchbrook is a data science consulting firm that specializes in the end-to-end lifecycle of any data analytics project – which is exactly what this particular project entailed\nWe are incredibly proud of the hard work & collaboration between the COHHIO team and the Ketchbrook Analytics team, and we hope that perhaps some of you in the audience have already utilized our web application to learn more about Youth Homelessness and the effect programs in the State are having on the youth homeless population"
+  },
+  {
+    "objectID": "housing-ohio-conf-2023.html#app-tour",
+    "href": "housing-ohio-conf-2023.html#app-tour",
+    "title": "Housing Ohio Conference 2023",
+    "section": "App Tour",
+    "text": "App Tour\n \nYouth Data Dashboard (cohhio.org/youth-data)\n\n\nI thought it would actually make sense to take a tour of the app first, so that for anyone in here who has not yet seen the app, the rest of this presentation will make a whole lot more sense"
+  },
+  {
+    "objectID": "housing-ohio-conf-2023.html#architecture",
+    "href": "housing-ohio-conf-2023.html#architecture",
+    "title": "Housing Ohio Conference 2023",
+    "section": "Architecture",
+    "text": "Architecture"
+  },
+  {
+    "objectID": "housing-ohio-conf-2023.html#hurdles",
+    "href": "housing-ohio-conf-2023.html#hurdles",
+    "title": "Housing Ohio Conference 2023",
+    "section": "Hurdles",
+    "text": "Hurdles\n\nDifferent HMIS Database implementations\n\nDe-duplication\nColumn name standardization\nInability to connect directly to data source(s)\n\nCOHHIO Resource Transitions\nData quality"
+  },
+  {
+    "objectID": "housing-ohio-conf-2023.html#what-made-this-project-successful",
+    "href": "housing-ohio-conf-2023.html#what-made-this-project-successful",
+    "title": "Housing Ohio Conference 2023",
+    "section": "What Made this Project Successful?",
+    "text": "What Made this Project Successful?\n\nWillingness to interrogate data\nMeeting COHHIO where they are\nIterative mindset\n\n\n\nIt’s not often that we have engagements where our client’s team is so well-versed in the data that they are working with, but the COHHIO team was a wonderful exception\n\nWe met bi-weekly, and I’d say we were both not afraid to ask the other tough questions, but very respectfully, and often these questions led to real deep dives into the data & scrolling through spreadsheets (shoutout to Monica Tillis, who lives and breathes HMIS data)\n\nHiring a Consultant does not mean you have to adopt & pay for some new 3rd Party Platform (when it comes to a data analytics project)\n\nWe met the COHHIO team where they are, used their existing technology stack\nWe used freely available software that COHHIO’s team is well-versed in\nThe only incremental cost over their existing tools was the database we created, which costs ~$15/month\n\nPrior to this project, there was an Excel “dashboard” that contained a little bit of this information, but it wasn’t real-time, not accessible to the public because you would have needed to have downloaded the Excel files, ran some macros, put files in certain places… it was not easy for the average stakeholder to view\n\nNow the only thing an end user needs is an internet connection; anyone can navigate to the app and explore it for themselves"
+  },
+  {
+    "objectID": "housing-ohio-conf-2023.html#what-made-this-project-successful-1",
+    "href": "housing-ohio-conf-2023.html#what-made-this-project-successful-1",
+    "title": "Housing Ohio Conference 2023",
+    "section": "What Made this Project Successful?",
+    "text": "What Made this Project Successful?\n\n\n\nWe pay a lot of attention to the design of the layout of information, with the goal of making a great user experience for anyone who is navigating the app\nIt takes a fair amount of time to write the code that produces a single page in the app, and for the purposes of both cost and the use of everyone’s time, one way we always try to reduce the amount of time it takes to develop a new dashboard page is to literally sketch it out ahead of time\n\nWe would have a conversation with the COHHIO team on what information we think should be included on a particular page, then we would sketch it out like you see here, and iterate on the design before we actually went out and built it\nThis quick iteration led to a really efficient workflow between concept and creation, and is how we would go from this…"
+  },
+  {
+    "objectID": "housing-ohio-conf-2023.html#what-made-this-project-successful-2",
+    "href": "housing-ohio-conf-2023.html#what-made-this-project-successful-2",
+    "title": "Housing Ohio Conference 2023",
+    "section": "What Made this Project Successful?",
+    "text": "What Made this Project Successful?\n\n\n\n…to this\nAnd with software, it’s a living/breathing thing that can be changed/enhanced\n\nJust pushed out a whole new page of the app last week!"
+  },
+  {
+    "objectID": "housing-ohio-conf-2023.html#what-made-this-project-successful-3",
+    "href": "housing-ohio-conf-2023.html#what-made-this-project-successful-3",
+    "title": "Housing Ohio Conference 2023",
+    "section": "What Made this Project Successful?",
+    "text": "What Made this Project Successful?\n\n\nWillingness to interrogate data\nMeeting COHHIO where they are\nIterative mindset\nAccessibility of end product\n\n\n\n\nPrior to this project, there was an Excel “dashboard” that contained a little bit of this information, but it wasn’t real-time, not accessible to the public because you would have needed to have downloaded the Excel files, ran some macros, put files in certain places… it was not easy for the average stakeholder to view\n\nNow the only thing an end user needs is an internet connection; anyone can navigate to the app and explore it for themselves"
+  },
+  {
+    "objectID": "housing-ohio-conf-2023.html#q-a",
+    "href": "housing-ohio-conf-2023.html#q-a",
+    "title": "Housing Ohio Conference 2023",
+    "section": "Q & A",
+    "text": "Q & A\n\ninfo@ketchbrookanalytics.com\n\nwww.ketchbrookanalytics.com"
+  }
+]
