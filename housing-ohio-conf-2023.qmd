@@ -39,7 +39,7 @@ format:
 
 ![](www/architecture-diagram.png)
 
-## Hurdles
+## Hurdles Encountered
 
 - Different HMIS Database implementations
   - De-duplication
@@ -98,6 +98,21 @@ format:
 ::: {.notes}
 - Prior to this project, there was an Excel "dashboard" that contained a little bit of this information, but it wasn't real-time, not accessible to the public because you would have needed to have downloaded the Excel files, ran some macros, put files in certain places... it was not easy for the average stakeholder to view
   - Now the only thing an end user needs is an internet connection; anyone can navigate to the app and explore it for themselves
+:::
+
+## What's Next?
+
+* User interface ("UI") improvements
+* Extend to other funding sources
+* Incorporate geospatial data
+
+::: {.notes}
+- User Interface improvements:
+  - We would like to add a check-box in the filters pane that allows users to limit the data displayed on screen to only heads of household, instead of everyone surveyed (which includes anyone else in the household)
+- Provide other funders with the ability to upload .zip file HMIS database extracts
+- Incorporate geospatial data and provide users with the ability to filter the data displayed by geographic region (e.g., county, city, etc.)
+- As well as many other improvements to provide additional context around what each chart represents, make the dashboard faster, and a lot of other little things
+- This is a software project, which means that it does need a small amount of general ongoing maintenance to ensure we are keeping up with best practices and that the project itself does not become *technical debt* to COHHIO -- it's really important to us that we are not just throwing something over the wall to them; this is a partnership and we want to make sure that any improvements we are doing to the app are mutually agreed upon and in the best interest of COHHIO and the app's users 
 :::
 
 ## Q & A
